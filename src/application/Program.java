@@ -13,12 +13,12 @@ public class Program {
 		
 		Estudante[] vect = new Estudante[10];
 		
-		System.out.println("Quantos quartos ser„o alugados?");
+		System.out.println("Quantos quartos ser√£o alugados?");
 		int q = sc.nextInt();
 		
-		for (int i=0; i < q; i++) {
+		for (int i=1; i<q; i++) {
 			System.out.println();
-			System.out.println("Locador n∫"+i+":");
+			System.out.println("Locador n¬∫"+i+":");
 			System.out.println("Nome do locador: ");
 			sc.nextLine();
 			String nome = sc.nextLine();
@@ -31,8 +31,8 @@ public class Program {
 		
 		System.out.println();
 		System.out.println("Quartos ocupados: ");
-		for (int i=0; i<10;i++) {
-			if(vect[i] != null) {
+		for (int i=0; i<10; i++) {
+			if(vect[i]!=null) {
 				System.out.println(i+":"+vect[i]);
 			}
 		}
