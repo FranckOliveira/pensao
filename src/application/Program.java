@@ -16,7 +16,7 @@ public class Program {
 		System.out.println("Quantos quartos serão alugados?");
 		int q = sc.nextInt();
 		
-		for (int i=1; i<q; i++) {
+		for (int i=1; i<=q; i++) {
 			System.out.println();
 			System.out.println("Locador nº"+i+":");
 			System.out.println("Nome do locador: ");
